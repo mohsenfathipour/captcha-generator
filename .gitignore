@@ -1,0 +1,15 @@
+# Ignore MacOS specific files
+.DS_Store
+
+# Ignore JetBrains/PhpStorm IDE specific files
+.idea/
+
+# Laravel specific files
+/vendor/
+node_modules/
+
+# Ignore Composer's directory and lock file for Laravel-specific packages
+composer.lock
+
+# Ignore environment files
+.env
